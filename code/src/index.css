@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  height: auto;
+  overflow-x: hidden;
+  background: black;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -11,3 +14,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+p {
+  color: #ffff;
+}
+
+.musicFlexContainer .container {
+  margin: 20px auto;
+  width: 90%;
+  background: black;
+  height: auto;
+  text-align: center;
+  padding: 24px, 24px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-around;
+  /*align-items: center; */
+}
+
+.albumBox {
+  width: 100px;
+  height: 100px;
+  background: grey;
+  border: 2px solid silver;
+  padding: 16px;
+  margin-bottom: 32px;
+
+}
+
+.albumBox img {
+  width: 50%;
+  height: auto;
+  padding: 0 15px;
+}
+@media (min-width: 1024px) {
+
+  .musicFlexContainer .container {
+
+    flex-direction: row;
+    align-items: center;
+
+  }
+      /* the news cards will be at least 25% of the size but still grow*/
+    .albumBox {
+      width: 25%;
+      flex-grow: 1;
+      margin: 16px;
+    }
+  }
