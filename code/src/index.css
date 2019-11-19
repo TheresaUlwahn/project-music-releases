@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  height: auto;
-  overflow-x: hidden;
-  background: black;
+ 
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -14,7 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
+/*
 p {
   color: #ffff;
 }
@@ -30,7 +28,7 @@ p {
   flex-flow: wrap;
   justify-content: space-around;
   /*align-items: center; */
-}
+/*}
 
 .albumBox {
   width: 100px;
@@ -56,9 +54,9 @@ p {
 
   }
       /* the news cards will be at least 25% of the size but still grow*/
-    .albumBox {
+    /*.albumBox {
       width: 25%;
       flex-grow: 1;
       margin: 16px;
     }
-  }
+  }*/
