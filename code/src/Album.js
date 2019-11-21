@@ -15,27 +15,28 @@ console.log(data.albums.items[1])*/
 
 export const Album = (props) => {
   return (
-    <div className="album">
-      <img src={props.image} />
-      <img src="code/public/icons/heart.svg" className="heartIcon"/>
-      <img src="code/public/icons/play.svg" className="playIcon"/>
-      <img src="code/src/Components/album.css" className="dotsIcon"/>
-        <div className="albumInfo">
-            <div className="name">  
-                <p>{props.name}</p>
-            </div>
-            <div className="artists">
-                {props.artists}
-            </div>
-        </div>
-    </div>
+    <div className="album-cover">
+        <img className="album-image" src={props.image} alt="Album" />
+        { <div className="icons">
+            <img className="heart-icon" src="icons/heart.svg" alt="Heart"/>
+            <img className="play-icon" src="icons/play.svg" alt="Play"/>
+            <img className="dots-icon" src="icons/dots.svg" alt="Dots"/>
+            </div>}
+    </div>)
+    }
 
-  )
-} 
 
-/*Showing album and name of album*/
-/*
-export const Album = () => {
+{/* { <div className=“icons”>
+            <img className=“icon-heart” src=“icons/heart.svg” alt=“Heart” />
+            <img className=“icon-play” src=“icons/play.svg” alt=“Play” />
+            <img className=“icon-dots” src=“icons/dots.svg” alt=“Dots” />
+</div> } 
+  
+}  */}
+
+{/*Showing album and name of album*/}
+
+{/*export const Album = () => {
     return (
         <section id="albums">
             <div>
@@ -51,14 +52,15 @@ export const Album = () => {
         </section>
     )
 }
-*/
+*/}
 
-/*export const Album = () => {
+{/*export const Album = () => {
     return (
         <div>
             <data />
             Export Album!
         </div>
     )
-}*/
+}
+*/}
 

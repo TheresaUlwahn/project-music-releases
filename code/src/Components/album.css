@@ -1,5 +1,5 @@
 
-.album {
+.album-cover {
     background-color: black;
     margin: 10px;
     border: 3px solid white;
@@ -9,37 +9,37 @@
     width: 100px;*/
    } 
  
-.artists {
+.album-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     margin: 0px;
 }
     
-.artists {
+.artist-name {
     font: 14px Helvetica #a0a0a0;
    
 }
 
 /******** Hover & underline *********/
-.albumInfo .name{
+.album-info .album-title{
     color:white;
     text-decoration: none;
   }  
-  .albumInfo .name:hover{
+  .album-inf .album-title:hover{
     text-decoration: underline;
   }  
 
-  .albumInfo .artists{
+  .album-inf .artist-name{
     color:white;
     text-decoration: none;
   }  
-  .albumInfo .artists:hover{
+  .album-inf .artist-name:hover{
     text-decoration: underline;
   } 
   
  /********* Icons *************/
 
- .heartIcon {
-     background: yellow;
+ .icons {
+   background: yellow;
  }
   
