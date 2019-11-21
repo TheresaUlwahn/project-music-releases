@@ -14,7 +14,7 @@ console.log(Album)
       <Header />
       <Album />
     </div>
-  )
+  )‰
 }*/
 
 export const App = () => {
@@ -23,7 +23,7 @@ export const App = () => {
       <Header />
         <section id='album-container'>
           {data.albums.items.map((item) => {
-            return <Album key={item.id} name={item.name} image={item.images[1].url} artists={ item.artists[0].name} />
+            return <Album key={item.id} name={item.name} image={item.images[1].url} artists={item.artists[0].name} />
           })}      
          </section>
     </div>

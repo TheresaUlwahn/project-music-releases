@@ -19,10 +19,15 @@ code {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.album {
+
+
+/*.artists{
+  color: green;
+}*/
+/*.album {
   background-color: aqua;
   margin: 10px;
- } 
+ } /*
 
 
 /*.musicFlexContainer .container {

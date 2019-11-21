@@ -1,17 +1,17 @@
 import React from 'react'
+import "./Components/header.css";
 
+export const Header = () => {
+    return (
+        <div className="header">
+        <h1>New albums and singles</h1>    
+        </div>
+    )
+}
 
-const divStyle = {
+/*const divStyle = {
     color: 'black',
     backgroundColor: 'black',
     height: '100px',
     width: '100%'
-}
-
-export const Header = () => {
-    return (
-        <div style={divStyle}>
-
-        </div>
-    )
-}
+}*/

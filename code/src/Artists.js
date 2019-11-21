@@ -1,11 +1,14 @@
 import React from 'react'
 import data from './data.json'
+import "./Components/artists.css";
 
-export const Artists = () => {
+export const Artists = (props) => {
     return (
-        <div>
-            <data />
+        <div className="artists">
+        {props.artists}
+      </div>
+            /*<data />
             Export Artists!
-        </div>
+        </div>*/
     )
 }

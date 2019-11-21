@@ -1,8 +1,45 @@
-/*.album {
-    background: pink;
-}*/
 
 .album {
-    background-color: aqua;
+    background-color: black;
     margin: 10px;
+    border: 3px solid white;
+    /*backgroundImage: 'url(' + data.albums.items[1].images[0].url + ')',*/
+    background-size: cover;
+   /* height:100px;
+    width: 100px;*/
    } 
+ 
+.artists {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 0px;
+}
+    
+.artists {
+    font: 14px Helvetica #a0a0a0;
+   
+}
+
+/******** Hover & underline *********/
+.albumInfo .name{
+    color:white;
+    text-decoration: none;
+  }  
+  .albumInfo .name:hover{
+    text-decoration: underline;
+  }  
+
+  .albumInfo .artists{
+    color:white;
+    text-decoration: none;
+  }  
+  .albumInfo .artists:hover{
+    text-decoration: underline;
+  } 
+  
+ /********* Icons *************/
+
+ .heartIcon {
+     background: yellow;
+ }
+  
