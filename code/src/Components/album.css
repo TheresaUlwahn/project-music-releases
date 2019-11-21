@@ -10,13 +10,15 @@
    } 
  
 .album-title {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    margin: 0px;
+  color: white;
+  font-size: 14px;
+  margin: 0px;
 }
     
 .artist-name {
-    font: 14px Helvetica #a0a0a0;
+  font-size: 14px;
+  margin: 0px;
+  color: white;
    
 }
 
@@ -25,21 +27,69 @@
     color:white;
     text-decoration: none;
   }  
-  .album-inf .album-title:hover{
+  .album-info .album-title:hover{
     text-decoration: underline;
   }  
 
-  .album-inf .artist-name{
+  .album-info .artist-name{
     color:white;
     text-decoration: none;
   }  
-  .album-inf .artist-name:hover{
+  .album-info .artist-name:hover{
     text-decoration: underline;
   } 
   
  /********* Icons *************/
 
- .icons {
-   background: yellow;
- }
-  
+
+ .icons { 
+ background: yellow;
+  width: 20px; 
+  height: 20px; 
+} 
+
+.heart-icon {
+  width: 7px;
+  height: 7px;
+}
+
+.play-icon {
+  width: 7px;
+  height: 7px;
+}
+
+.dots-icon {
+  width: 7px;
+  height: 7px;
+}
+
+ /********* Media *************/
+
+@media (min-width: 668px) and (max-width: 1024px) {
+
+  .album-cover {
+    /*display: flex;
+    flex-direction: column;  */
+    width:45%;
+    padding: 5px;
+    padding-top: none;
+  }
+  .album-image {
+    width: 300px;
+    padding-bottom: 10px;
+  }  
+}
+
+@media (min-width: 1025px) {
+  .album-cover {
+    width: 20%;
+    padding-top: none;
+  }
+  .album-title {
+    max-width: fit-content;
+  }
+  .album-image {
+        width: 95%;
+        padding: 10px;
+  }
+}

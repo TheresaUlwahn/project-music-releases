@@ -4,7 +4,7 @@ import "./Components/artists.css";
 
 export const Artists = (props) => {
     return (
-        <div className="artists">
+        <div className="artist-name">
         {props.artists}
       </div>
             /*<data />
