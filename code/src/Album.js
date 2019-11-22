@@ -21,12 +21,12 @@ export const Album = (props) => {
         
             <div className="album-info">
                 <div className="album-title">  
-                    <a href={props.albumURL}>{props.albumTitle}</a>
+                    <a href={props.albumURL}>{props.name}</a>
                 </div>
                 <div className="artist-name">
-                    {props.artists}
+                <a href={props.albumURL}>{props.artists}</a>
                 </div>
-             </div>
+            </div>
         </div> 
     )   
 }

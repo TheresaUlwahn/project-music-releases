@@ -1,22 +1,21 @@
-.header {
-    color: white;
+header {
     height: 100px;
     width: 100%;
-    font-family: Helvetica;
-    
 }
 
 h1 {
-    font-size: 14px;
-    justify-content: baseline;
-  
+  font-size: 14px;
+  font-family: inherit;                                                        
+  color: #ffff;
+  border-bottom: 1px solid rgb(91, 91, 91); 
+  margin: 10px;
 }
 
 @media (min-width: 668px) and (max-width: 1024px) {
-    .Header {
-      text-align: center;
-    }
-    h1 {
-      padding-left: 0;
-    }
+  header {
+    text-align: center;
+  }
+  h1 {
+    padding-left: 0;
+  }
 }
