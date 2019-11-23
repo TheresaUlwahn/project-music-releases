@@ -4,7 +4,7 @@ import "./Components/header.css";
 export const Header = () => {
     return (
         <div className="header">
-        <h1>Hello Maja! I love You! </h1>    
+        <h1>New albums & singles </h1>    
         </div>
     )
 }
