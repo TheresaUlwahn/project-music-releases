@@ -26,14 +26,47 @@ a {
   color: #fff;
 
 }
+/********* Icons *************/
+.cover-icons {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+ 
+}
+
+ .icons { 
+  top: 162px;
+ 
+  z-index: 3;
+  align-self: center;
+  display: none;
+  position: absolute;
+  transform: translate(34%, -50%);
+} 
+
+.heart-icon {
+  width: 44px;
+  height: 70px;
+}
+
+.play-icon {
+  width: 104px;
+    height: 71px;
+}
+
+.dots-icon {
+  width: 34px;
+  height: 68px;
+}
 
 /******** Hover album cover and icons *********/
 
 .album-image {
   width: 100%;
+
   position: relative;
 }
-
 
 .album-image:hover {
   opacity: 0.3;
@@ -43,17 +76,16 @@ a {
   filter: brightness(30%); 
 }
 
-.icons {
-    opacity: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
+/*.icons {
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}*/
 
 icons:hover ~ .album-image { 
   filter: brightness(30%); 
 }
-
 
 /******** Hover info & underline info *********/
 .album-info a {
@@ -72,37 +104,7 @@ icons:hover ~ .album-image {
     text-decoration: underline;
   } 
   
- /********* Icons *************/
- .cover-icons {
-  position: relative;
-}
-
- .icons { 
-  top: 162px;
-  left: 113px;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  position: absolute;
-  transform: translate(-50%, -50%);
-} 
-
-.heart-icon {
-  width: 44px;
-  height: 70px;
-}
-
-.play-icon {
-  width: 104px;
-    height: 71px;
-}
-
-.dots-icon {
-  width: 34px;
-  height: 68px;
-}
-
+ 
  /********* Media *************/
 
 @media (min-width: 668px) and (max-width: 1024px) {
