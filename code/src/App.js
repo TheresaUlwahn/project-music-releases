@@ -2,12 +2,9 @@ import React from 'react'
 import data from './data.json'
 import { Album } from './Album'
 import { Header } from './Header'
-/*import { Z_ASCII } from 'zlib';*/
 
 console.log(data)
 console.log(Album)
-
-
 
 export const App = () => {
   return (
@@ -20,4 +17,4 @@ export const App = () => {
          </section>
     </div>
   )
- }
+}

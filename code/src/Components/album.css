@@ -1,17 +1,18 @@
-
+/*inlcuding cover and information*/
 .album-cover {
   background-color: black;
   margin: 10px;
   background-size: cover;  
 } 
  
-/*inlcuding artist name and album*/
-.album-info{
+/*inlcuding only artistname and albumname */
+.album-info {
   width: 300px;
   height: 100px;
   color: #fff;
 }
 
+/*css for the links*/
 a {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
@@ -21,22 +22,23 @@ a {
 }
 
 /*separateing the artist name from not being bold*/
-.artist-name{
+.artist-name {
   font-size: 14px;
   font-family: inherit;
   color: #fff;
   font-weight: 100;
-
 }
+
 /********* Icons - heart, play and dots*************/
 
+/*flexing for the position of the icons*/
 .cover-and-icons {
   position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
-
+/*position for the icons in the middle of the album*/
  .icons { 
   top: 162px;
   z-index: 3; 
@@ -74,6 +76,7 @@ a {
   filter: alpha(opacity=50); 
 }
 
+/*displaying the icons on hover and change cursor to pointer*/
 .album-cover:hover .icons {
   display: block;
   cursor: pointer;
@@ -81,6 +84,7 @@ a {
   filter: alpha(opacity=100);   
 }
 
+/*icon gets larger on hover and white*/
 .play-icon:hover {
   transform: scale(1.2);
   opacity: 1;
@@ -110,7 +114,6 @@ a {
     text-decoration: underline;
   } 
   
- 
  /********* Media *************/
 
 @media (min-width: 668px) and (max-width: 1024px) {
