@@ -2,6 +2,10 @@
 
 Used React components to build a page which shows new album and single releases.
 
+## View it live
+
+https://mrsucodesproject9thenewmusicreleaseproject.netlify.com/
+
 ## Questions asked and answered
 
 - How to write React components
@@ -18,6 +22,4 @@ Used React components to build a page which shows new album and single releases.
 * When click on an artist, it links to the artist's external url in the data
 * The page is response, showing 4 albums per row on desktop, 2 per row on tablet, and 1 per row on mobile.
 
-## View it live
 
-https://mrsucodesproject9thenewmusicreleaseproject.netlify.com/
